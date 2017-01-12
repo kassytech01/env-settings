@@ -1,2 +1,3 @@
 * Windows
-C:\Users\ユーザ\.atom\styles.less
+
+    C:\Users\ユーザ\.atom\styles.less
