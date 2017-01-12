@@ -1,3 +1,6 @@
-* Windows
+### Path
 
-    C:\Users\ユーザ\.atom\styles.less
+* Windows
+```
+C:\Users\ユーザ\.atom\styles.less
+```
