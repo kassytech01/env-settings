@@ -1,2 +1,2 @@
 * Windows
-C:\Users\ƒ†[ƒU\.atom\styles.less
+C:\Users\ãƒ¦ãƒ¼ã‚¶\.atom\styles.less
