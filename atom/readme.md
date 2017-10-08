@@ -19,3 +19,19 @@ apm install language-groovy
 ### JavaScriptsコードの整形
 Package > Settings View > Install Packages  
 検索バーに「atom-beautify」でインストール。
+
+* 「Ctrl + Alt + B」の自動フォーマットのショートカット
+
+Ubuntuでは、テキスト編集時に変なバインドが掛かってしまう。  
+そのため、以下のコマンドを実行してログアウトを行うことで、解消可能。
+
+```
+sudo vim /usr/share/fcitx/addon/fcitx-vk.conf 
+```
+
+開いたファイルに
+```
+Enable=false 
+```
+
+ログアウトし、再ログイン。
