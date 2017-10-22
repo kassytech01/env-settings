@@ -22,8 +22,9 @@ Package > Settings View > Open > [Editor]
 - 不可視文字を表示：チェック
 
 ### JavaScriptsコードの整形
-Package > Settings View > Install Packages
-検索バーに「atom-beautify」でインストール。
+```shell
+apm install atom-beautify
+```
 
 * 「Ctrl + Alt + B」の自動フォーマットのショートカット
 
@@ -42,5 +43,11 @@ Enable=false
 ログアウトし、再ログイン。
 
 ### HTMLタグを自動で閉じる
-Package > Settings View > Install Packages
-検索バーに「autoclose-html」でインストール。
+```shell
+apm install autoclose-html
+```
+
+### JSDoc補完
+```shell
+apm install docblockr
+```
