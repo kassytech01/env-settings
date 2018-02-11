@@ -12,7 +12,7 @@ C:\Users\ユーザ\.atom\styles.less
 ターミナルで以下を実行する。
 
 ```shell
-apm install language-groovy
+$ apm install language-groovy
 ```
 (参照)[language-groovy](https://atom.io/packages/language-groovy)
 
@@ -23,7 +23,7 @@ Package > Settings View > Open > [Editor]
 
 ### JavaScriptsコードの整形
 ```shell
-apm install atom-beautify
+$ apm install atom-beautify
 ```
 
 * 「Ctrl + Alt + B」の自動フォーマットのショートカット
@@ -32,7 +32,7 @@ Ubuntuでは、テキスト編集時に変なバインドが掛かってしま�
 そのため、以下のコマンドを実行してログアウトを行うことで、解消可能。
 
 ```
-sudo vim /usr/share/fcitx/addon/fcitx-vk.conf 
+$ sudo vim /usr/share/fcitx/addon/fcitx-vk.conf 
 ```
 
 開いたファイルに
@@ -44,10 +44,15 @@ Enable=false
 
 ### HTMLタグを自動で閉じる
 ```shell
-apm install autoclose-html
+$ apm install autoclose-html
 ```
 
 ### JSDoc補完
 ```shell
-apm install docblockr
+$ apm install docblockr
+```
+
+### Dockerfile Syntax Highlighting
+```shell
+$ apm install language-docker
 ```
