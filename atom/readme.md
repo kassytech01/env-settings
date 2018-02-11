@@ -11,7 +11,7 @@ C:\Users\ユーザ\.atom\styles.less
 ### Groovy syntax highlighting and snippets
 ターミナルで以下を実行する。
 
-```shell
+```
 $ apm install language-groovy
 ```
 (参照)[language-groovy](https://atom.io/packages/language-groovy)
@@ -22,7 +22,7 @@ Package > Settings View > Open > [Editor]
 - 不可視文字を表示：チェック
 
 ### JavaScriptsコードの整形
-```shell
+```
 $ apm install atom-beautify
 ```
 
@@ -43,16 +43,21 @@ Enable=false
 ログアウトし、再ログイン。
 
 ### HTMLタグを自動で閉じる
-```shell
+```
 $ apm install autoclose-html
 ```
 
 ### JSDoc補完
-```shell
+```
 $ apm install docblockr
 ```
 
 ### Dockerfile Syntax Highlighting
-```shell
+```
 $ apm install language-docker
+```
+
+### Markdownのテーブルを成形
+```
+$ apm install tidy-markdown
 ```
